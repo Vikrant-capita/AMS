@@ -26,7 +26,7 @@ public class EmailSent {
 	
 	//EmailAttachment attachment=new EmailAttachment();
  
-	
+	/*
 	Email email1 = new SimpleEmail();
 	email1.setHostName("smtp.gmail.com");
 	email.setSmtpPort("465");
