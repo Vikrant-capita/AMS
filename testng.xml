@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" allow-return-values="true">
+<listeners>
+<listener class-name="testComponents.Listeners"/>
+</listeners>
+<!--  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://ams-in.capita.co.in/Mypage/Home.aspx"/>  -->
+  <test thread-count="5" name="Test">
+  
+    <classes>
+           <!-- <class name="tests.LoginTest.LoginPage"/>  
+         
+      
+         <class name="tests.Homepage.ValidateHomepage"/>  
+         <class name="tests.Homepage.ValidateHomepageLinks"/>
+         <class name="tests.Homepage.RegularizeAttendance"/>
+         <class name="tests.Homepage.ValidateExceptionLeavesPendingActions"/>
+         
+         <class name="tests.myDetails.myException.MyException"/>
+         <class name="tests.myDetails.myException.MyExceptionHistory"/>
+         <class name="tests.myDetails.MyHolidayList"/>
+         <class name="tests.myDetails.MyMessages"/>
+                
+         <class name=" tests.mainMyLeaves.leaveException.LeaveException"/>
+         <class name="tests.mainMyLeaves.myCalendar.MyCalendar"/>
+         <class name="tests.mainMyLeaves.myLeaves.LeaveBalance"/>
+         <class name="tests.mainMyLeaves.myLeaves.leaveCancel"/>
+         <class name="tests.mainMyLeaves.myLeaves.LeavePlan"/>
+         <class name="tests.mainMyLeaves.myLeaves.MyLeave"/>
+         <class name="tests.mainMyLeaves.myLeavesPage.MyLeavesPage"/>
+         <class name="tests.mainMyLeaves.myReports.MyReports"/>
+         <class name="tests.userMannual.AMSFAQs"/>
+         
+         <class name="tests.userMannual.AMSManual"/>
+          
+     	<class name="tests.myDetails.MyHolidayList"/>
+    	   
+		 <class name="tests.myDetails.MyHolidayList"/> 
+		 
+		      	  
+    	  <class name="tests.Homepage.ValidateExceptionLeavesPendingActions"/>   
+    	
+    	<class name="tests.LoginTest.LoginPage"/>
+    	 -->
+    	<class name="tests.managerMyTeamApproval.pendingException.MgrPendingExceptionsTest"/>
+    	
+           
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
